@@ -1,0 +1,33 @@
+2020-02-23 10:56:28 - log_config.py[line:36] - INFO: 
+model parameters: 
+0. answer_truncate_len: 80
+1. dataset_name: libu
+2. do_lowercase: True
+3. enable_layer_norm: True
+4. gated_attention: True
+5. hidden_size: 150
+6. match_lstm_layer_bidirection: True
+7. match_rnn_layer_dropout_p: 0.4
+8. model_name: matchlstm
+9. n_classes: 2
+10. need_segment: False
+11. network_mode: LSTM
+12. preprocessing_layer_bidirection: True
+13. preprocessing_layer_dropout_p: 0.1
+14. question_truncate_len: 30
+15. word_embedding_size: 100
+2020-02-23 10:56:28 - libu_reader.py[line:42] - INFO: Reading file at /Users/qiyb/Desktop/workspace/libu/QAREToolkit/qare/data/libu/train.json
+2020-02-23 11:02:23 - utils.py[line:40] - INFO: Function - read running time : 5 m - 55 s - 18.282 ms
+2020-02-23 11:02:23 - libu_reader.py[line:42] - INFO: Reading file at /Users/qiyb/Desktop/workspace/libu/QAREToolkit/qare/data/libu/dev.json
+2020-02-23 11:03:07 - utils.py[line:40] - INFO: Function - read running time : 0 m - 43 s - 772.548 ms
+2020-02-23 11:03:07 - data_statistics.py[line:47] - INFO:  Data statistics 
+2020-02-23 11:03:08 - utils.py[line:40] - INFO: Function - statistics running time : 0 m - 0 s - 626.522 ms
+2020-02-23 11:03:08 - vocabulary.py[line:143] - INFO: Loading vocabulary from /Users/qiyb/Desktop/workspace/libu/QAREToolkit/qare/data_factory/save_vocab/match_lstm_libu/80_libu_True_True_True_150_True_0.4_matchlstm_2_False_LSTM_True_0.1_30_100.pkl
+2020-02-23 11:03:08 - match_lstm_libu.py[line:81] - INFO: Building train batch data.
+2020-02-23 11:03:08 - batch_dataset.py[line:23] - INFO: Loading Dataset.
+2020-02-23 11:03:08 - match_lstm_libu.py[line:89] - INFO: Building eval batch data.
+2020-02-23 11:03:08 - batch_dataset.py[line:23] - INFO: Loading Dataset.
+2020-02-23 11:03:08 - layers.py[line:47] - INFO: Set pretrained embedding weights
+2020-02-23 11:03:08 - trainer.py[line:41] - INFO: Begin training model.
+2020-02-23 11:03:08 - trainer.py[line:52] - INFO: Initial evaluation result.
+2020-02-23 11:06:58 - evaluator.py[line:67] - INFO: 	Acc:0.5073, Precision:0.5095, Recall:0.5073, F1:0.4777, AUC:0.5380 

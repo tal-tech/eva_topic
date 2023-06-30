@@ -1,0 +1,12 @@
+scikit-learn==0.20.2
+flask==1.0.2
+gunicorn
+py_eureka_client==0.5.3
+gevent
+requests
+xlrd
+torch==1.2.0
+pandas==0.24.2
+jieba==0.39
+tqdm==4.28.1
+nltk

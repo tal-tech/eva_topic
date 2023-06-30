@@ -1,0 +1,72 @@
+[{
+  "begin_time": 230,
+  "code": 0,
+  "details": [{
+    "beginTime": 360,
+    "endTime": 420,
+    "silenceTime": 60,
+    "word": "i"
+  }, {
+    "beginTime": 480,
+    "endTime": 1560,
+    "silenceTime": 1320,
+    "word": "usually"
+  }, {
+    "beginTime": 2880,
+    "endTime": 3180,
+    "silenceTime": 0,
+    "word": "went"
+  }, {
+    "beginTime": 3180,
+    "endTime": 3420,
+    "silenceTime": 0,
+    "word": "to"
+  }, {
+    "beginTime": 3420,
+    "endTime": 3600,
+    "silenceTime": 0,
+    "word": "the"
+  }, {
+    "beginTime": 3600,
+    "endTime": 4380,
+    "silenceTime": 120,
+    "word": "movies"
+  }, {
+    "beginTime": 4500,
+    "endTime": 4800,
+    "silenceTime": 0,
+    "word": "on"
+  }, {
+    "beginTime": 4800,
+    "endTime": 5580,
+    "silenceTime": 120,
+    "word": "weekends"
+  }, {
+    "beginTime": 5700,
+    "endTime": 6600,
+    "silenceTime": 60,
+    "word": "sometimes"
+  }, {
+    "beginTime": 6660,
+    "endTime": 7200,
+    "silenceTime": 0,
+    "word": "me"
+  }],
+  "duration": 7570,
+  "end_time": 7570,
+  "first_pkg_timestamp": 1581931471684,
+  "index": 1,
+  "is_end": false,
+  "is_partial": false,
+  "msg": "decode success.",
+  "request_params": {
+    "nbest": 0,
+    "output_end_silence": false,
+    "prior_set": {
+      "hot_words": []
+    }
+  },
+  "result": "i usually went to the movies on weekends sometimes me",
+  "time_delay": 11589,
+  "time_delay_inner": 142
+}]

@@ -1,0 +1,30 @@
+2020-02-24 11:54:30 - log_config.py[line:36] - INFO: 
+model parameters: 
+0. answer_truncate_len: 80
+1. char_channel_size: 100
+2. char_channel_width: 5
+3. char_embedding_size: 8
+4. dataset_name: libu
+5. do_lowercase: True
+6. dropout: 0.4
+7. hidden_size: 100
+8. model_name: bidaf
+9. n_classes: 2
+10. need_segment: False
+11. question_truncate_len: 30
+12. word_embedding_size: 100
+13. word_truncate_len: 25
+2020-02-24 11:54:30 - libu_reader.py[line:42] - INFO: Reading file at /Users/qiyb/Desktop/workspace/libu/QAREToolkit/qare/data/libu/train.json
+2020-02-24 12:01:54 - utils.py[line:40] - INFO: Function - read running time : 7 m - 24 s - 321.149 ms
+2020-02-24 12:01:54 - libu_reader.py[line:42] - INFO: Reading file at /Users/qiyb/Desktop/workspace/libu/QAREToolkit/qare/data/libu/dev.json
+2020-02-24 12:02:49 - utils.py[line:40] - INFO: Function - read running time : 0 m - 55 s - 284.723 ms
+2020-02-24 12:02:49 - data_statistics.py[line:47] - INFO:  Data statistics 
+2020-02-24 12:02:50 - utils.py[line:40] - INFO: Function - statistics running time : 0 m - 0 s - 854.111 ms
+2020-02-24 12:02:50 - vocabulary.py[line:143] - INFO: Loading vocabulary from /Users/qiyb/Desktop/workspace/libu/QAREToolkit/qare/data_factory/save_vocab/bidaf_libu/80_100_5_8_libu_True_0.4_100_bidaf_2_False_30_100_25.pkl
+2020-02-24 12:02:50 - bidaf_libu.py[line:82] - INFO: Building train batch data.
+2020-02-24 12:02:50 - batch_dataset.py[line:23] - INFO: Loading Dataset.
+2020-02-24 12:02:50 - bidaf_libu.py[line:90] - INFO: Building eval batch data.
+2020-02-24 12:02:50 - batch_dataset.py[line:23] - INFO: Loading Dataset.
+2020-02-24 12:02:50 - layers.py[line:47] - INFO: Set pretrained embedding weights
+2020-02-24 12:05:12 - evaluator.py[line:67] - INFO: 	Acc:0.8285, Precision:0.8663, Recall:0.8285, F1:0.8239, AUC:0.8030 
+2020-02-24 12:05:12 - utils.py[line:40] - INFO: Function - evaluate running time : 2 m - 21 s - 658.275 ms
